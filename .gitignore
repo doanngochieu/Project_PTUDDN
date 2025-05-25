@@ -1,0 +1,42 @@
+node_modules
+.env.*
+/client/.env.production
+
+# gitignore for Vue client
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+.DS_Store
+dist
+dist-ssr
+coverage
+*.local
+
+/cypress/videos/
+/cypress/screenshots/
+
+# Editor directories and files
+client/.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+*.tsbuildinfo
+
+/scrape_data/data/*.json
+/scrape_data/data/hotels/
+
+server/public/uploads/hotels/*
+!server/public/uploads/hotels/.gitkeep
+
