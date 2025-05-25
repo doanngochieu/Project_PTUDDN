@@ -39,4 +39,4 @@ Welcome to the **TravelNest** - Hotel booking website.
 - **SMS**: infobip
 - **Realtime notification**: SocketIO
 - **Cloud storage**: Cloudinary 
-- **Hosting**: 
+
